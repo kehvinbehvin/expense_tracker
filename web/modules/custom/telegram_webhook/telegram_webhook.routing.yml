@@ -1,0 +1,8 @@
+telegram_webhook.expense_transaction:
+  path: '/api/v0/telegram_webhook/test'
+  defaults:
+    _controller: '\Drupal\telegram_webhook\Controller\ApiController::test'
+    _title: 'Test route'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'

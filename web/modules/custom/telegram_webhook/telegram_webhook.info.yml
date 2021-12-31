@@ -1,0 +1,6 @@
+name: 'TELEGRAM WEBHOOK'
+type: module
+description: 'Webhook receiver for telegram bot'
+core: 8.x
+package: Custom
+core_version_requirement: ^8 || ^9
